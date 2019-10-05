@@ -10,7 +10,6 @@ import ContactMe from "./components/contactMe";
 function App() {
   return (
     <div className="App">
-      <h1>APP</h1>
       <Nav />
       <Profile />
       <Experience />
