@@ -9,7 +9,12 @@
 .navbar {
 }
 .brand {
-  position: absolute;
+  position: relative;
   float: left;
+  margin: 2%;
+}
+.menuIcon {
+  position: relative;
+  float: right;
   margin: 2%;
 }

@@ -8,7 +8,9 @@ const Nav = () => {
       <div className="bg-box"></div>
       <div className="navbar">
         <h1 className="brand">RG</h1>
-        <MenuIcon />
+        <div className="menuIcon">
+          <MenuIcon />
+        </div>
       </div>
     </div>
   );
