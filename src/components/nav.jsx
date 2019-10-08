@@ -11,18 +11,18 @@ const Nav = () => {
           <MenuIcon />
         </div>
       </div>
-      <div className="bgBox">
+      <div className="bgBoxUp">
         <div className="links">
-          <a href="/" className="navLink">
+          <a href="/" className="navLinkHidden">
             Profile
           </a>
-          <a href="/" className="navLink">
+          <a href="/" className="navLinkHidden">
             Experience
           </a>
-          <a href="/" className="navLink">
+          <a href="/" className="navLinkHidden">
             Projects
           </a>
-          <a href="/" className="navLink">
+          <a href="/" className="navLinkHidden">
             Contact Me
           </a>
         </div>
