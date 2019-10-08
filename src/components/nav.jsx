@@ -4,12 +4,27 @@ import { ReactComponent as MenuIcon } from "../assets/Menu-Icon.svg";
 
 const Nav = () => {
   return (
-    <div>
-      <div className="bg-box"></div>
+    <div className="nav">
       <div className="navbar">
         <h1 className="brand">RG</h1>
         <div className="menuIcon">
           <MenuIcon />
+        </div>
+      </div>
+      <div className="bgBox">
+        <div className="links">
+          <a href="/" className="navLink">
+            Profile
+          </a>
+          <a href="/" className="navLink">
+            Experience
+          </a>
+          <a href="/" className="navLink">
+            Projects
+          </a>
+          <a href="/" className="navLink">
+            Contact Me
+          </a>
         </div>
       </div>
     </div>
