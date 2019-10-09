@@ -1,6 +1,6 @@
 import React from "react";
 import "./nav.css";
-import { ReactComponent as MenuIcon } from "../assets/Menu-Icon.svg";
+import MenuIcon from "./menuIcon";
 
 const Nav = () => {
   return (

@@ -26,13 +26,19 @@
   float: right;
 }
 
+.menuIcon:hover {
+  display: inline;
+  float: right;
+  cursor: pointer;
+}
+
 .bgBoxUp {
   position: absolute;
   min-width: 100%;
   height: 40vh;
   z-index: -1;
   top: -20vh;
-  background-image: linear-gradient(#964949, #ff8080);
+  background-image: linear-gradient(#632f2f, #ff8080);
   text-align: center;
 }
 
