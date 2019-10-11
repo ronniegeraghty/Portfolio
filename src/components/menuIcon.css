@@ -1,0 +1,7 @@
+.svgLine {
+  transform: "rotate(0)";
+  fill: "none";
+  stroke: "#ffba92";
+  stroke-linecap: "round";
+  stroke-width: "6";
+}
